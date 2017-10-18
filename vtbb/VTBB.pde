@@ -111,7 +111,7 @@ void keyPressed() {
     if (looping)  noLoop();
     else          loop();
   }
-  
+
   if (key == 't') {
     print("check");
     oscP5.send("/regular",new Object[] {-1, 0, 0}, myRemoteLocation);
